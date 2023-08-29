@@ -13,8 +13,7 @@ module.exports = {
     'react/prop-types': 0,
   },
 
-  /* Пресет с настройками. prettier должен быть последним. 
-    Он удаляет некоторые правила eslint из-за которых могут возникать конфликты. */
+
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
